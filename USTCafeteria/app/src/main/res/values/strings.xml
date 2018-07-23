@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">UST Cafeteria</string>
+    <string name="todo">TODO</string>
+    <string name="wagapat">وجبات رائيسية</string>
+    <string name="مكرونة">مكرونة</string>
+    <string name="سندوتشات">سندوتشات</string>
+    <string name="بيتزا">بيتزا</string>
+    <string name="الحلو">الحلو</string>
+    <string name="مشروبات">مشروبات</string>
+    <string name="طلبك">طلبك</string>
+    <string name="your_name">Your name:</string>
+    <string name="id">ID :</string>
+    <string name="phone_number">Phone number :</string>
+    <string name="comment">Comment :</string>
+    <string name="وجبات">وجبات رئيسية</string>
+    <string name="_1">1</string>
+
+    <string-array name="mail">
+        <item>فراخ بانبة</item>
+        <item>برجر</item>
+        <item>سجق</item>
+        <item>هوت دوج</item>
+        <item>شيش</item>
+        <item>جريل تشيكن</item>
+        <item>بطاطس</item>
+        <item>فول</item>
+        <item>طعمية</item>
+        <item>بيض</item>
+        <item>جبنة</item>
+    </string-array>
+
+    <string-array name="price">
+        <item>18ج</item>
+        <item>20ج</item>
+        <item>18ج</item>
+        <item>18ج</item>
+        <item>18ج</item>
+        <item>18ج</item>
+        <item>5ج</item>
+        <item>3ج</item>
+        <item>3ج</item>
+        <item>3ج</item>
+        <item>4ج</item>
+    </string-array>
+    <string-array name="wagpat">
+        <item>فراخ بانبة</item>
+        <item>كفتة</item>
+        <item>شيش</item>
+        <item>فراخ جريل</item>
+    </string-array>
+    <string-array name="wagpat_price">
+        <item>30ج</item>
+        <item>30ج</item>
+        <item>30ج</item>
+        <item>30ج</item>
+    </string-array>
+    <string-array name="makarona">
+        <item>مكرونة اسباجتي</item>
+        <item>مكرونة اسباجتي باللحمة المفرومة</item>
+        <item>مكرونة سجق</item>
+        <item>مكرونة هوت دوج</item>
+        <item>مكرونة فراخ وكريمة</item>
+        <item>مكرونة جبنة وزيتون</item>
+        <item>مكرونة بشاميل</item>
+        <item>مكرونة شيش</item>
+    </string-array>
+    <string-array name="makarona_price">
+        <item>10ج</item>
+        <item>19ج</item>
+        <item>22ج</item>
+        <item>22ج</item>
+        <item>22ج</item>
+        <item>18ج</item>
+        <item>20ج</item>
+        <item>22ج</item>
+    </string-array>
+
+    <string-array name="pitza">
+        <item>مارجريتا</item>
+        <item>هوت دوج</item>
+        <item>فراخ</item>
+        <item>خضار</item>
+    </string-array>
+    <string-array name="pitza_price">
+        <item>20ج</item>
+        <item>25ج</item>
+        <item>25ج</item>
+        <item>20ج</item>
+    </string-array>
+
+    <string-array name="halw">
+        <item>وافل شيكولاتة</item>
+        <item>وافل كراميل</item>
+    </string-array>
+    <string-array name="halw_price">
+        <item>15ج</item>
+        <item>13ج</item>
+    </string-array>
+
+    <string-array name="drinks">
+        <item>مانجو</item>
+        <item>برتقال</item>
+        <item>ليمون</item>
+        <item>جوافة</item>
+        <item>موز</item>
+        <item>بطيخ</item>
+        <item>كنتالوب</item>
+        <item>فراولة</item>
+        <item>اوريو</item>
+        <item>ملك شيك شيكولاتة</item>
+        <item>ملك شيك فانيليا</item>
+        <item>ملك شيك كراميل</item>
+        <item>ملك شيك فراولة</item>
+        <item>شاي</item>
+        <item>شاي أخضر</item>
+        <item>نسكافية</item>
+        <item>كابتشينو</item>
+        <item>هوت شوكليت</item>
+        <item>هوت سيدر</item>
+        <item>لاتية</item>
+        <item>اسبرسو</item>
+        <item>موكا</item>
+        <item>قهوة</item>
+        <item>ينسون</item>
+        <item>نعناع</item>
+        <item>قرفة</item>
+    </string-array>
+
+    <string-array name="drinks_price">
+        <item>10ج</item>
+        <item>10ج</item>
+        <item>10ج</item>
+        <item>10ج</item>
+        <item>10ج</item>
+        <item>10ج</item>
+        <item>10ج</item>
+        <item>10ج</item>
+        <item>30ج</item>
+        <item>12ج</item>
+        <item>12ج</item>
+        <item>12ج</item>
+        <item>12ج</item>
+        <item>4ج</item>
+        <item>5ج</item>
+        <item>10ج</item>
+        <item>10ج</item>
+        <item>10ج</item>
+        <item>10ج</item>
+        <item>10ج</item>
+        <item>10ج</item>
+        <item>10ج</item>
+        <item>5ج</item>
+        <item>5ج</item>
+        <item>5ج</item>
+        <item>5ج</item>
+    </string-array>
+</resources>

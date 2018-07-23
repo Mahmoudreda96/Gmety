@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "605515532515",
+    "firebase_url": "https://ustcoffe.firebaseio.com",
+    "project_id": "ustcoffe",
+    "storage_bucket": "ustcoffe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605515532515:android:ea53edc9ae81e685",
+        "android_client_info": {
+          "package_name": "com.mahmoudreda.ustcafeteriaowner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605515532515-adkm1rg5cjmg1ifbqtf39mhnkh2obfbt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mahmoudreda.ustcafeteriaowner",
+            "certificate_hash": "eac820b6fc8b3d8f8717377c6cb127333719deb2"
+          }
+        },
+        {
+          "client_id": "605515532515-k6g2vek5tgh7pqnnan5uockatjjh0ou7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqrJMSel7_L_Si51HKutxYu0x2JZS51Bs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605515532515-k6g2vek5tgh7pqnnan5uockatjjh0ou7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

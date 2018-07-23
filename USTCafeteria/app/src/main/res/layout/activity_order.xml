@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mahmoudreda.ustCoffe.order">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="ScrollViewCount,UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EBEBEB"
+                android:padding="8dp"
+                android:text="@string/your_name"
+                android:textAlignment="viewStart"
+                android:textSize="14sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/student_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:padding="8dp"
+                tools:ignore="LabelFor" />
+
+            <TextView
+                android:id="@+id/id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EBEBEB"
+                android:padding="8dp"
+                android:text="@string/id"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:textStyle="bold|italic"
+                />
+
+            <EditText
+                android:id="@+id/student_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:padding="8dp"
+                android:text=""
+                tools:ignore="LabelFor" />
+
+            <TextView
+                android:id="@+id/phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EBEBEB"
+                android:padding="8dp"
+                android:text="@string/phone_number"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:textStyle="bold|italic"
+                />
+
+            <EditText
+                android:id="@+id/student_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:padding="8dp"
+                android:text=""
+                tools:ignore="LabelFor" />
+
+            <ListView
+                android:id="@+id/list_view_order"
+                style="@style/Widget.AppCompat.ListView.Menu"
+                android:layout_width="match_parent"
+                android:layout_height="165dp"
+                android:scrollbars="none"
+                android:visibility="visible"
+                tools:ignore="NestedScrolling" />
+
+            <TextView
+                android:id="@+id/comment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/student_comment"
+                android:layout_alignParentEnd="true"
+                android:background="#EBEBEB"
+                android:padding="8dp"
+                android:text="@string/comment"
+                android:textAlignment="viewStart"
+                android:textStyle="bold|italic"
+                tools:ignore="NotSibling,ObsoleteLayoutParam" />
+
+            <EditText
+                android:id="@+id/student_comment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:padding="8dp"
+                tools:ignore="LabelFor" />
+
+            <Button
+                android:id="@+id/confirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="#5F9EA0"
+                android:text="confirm"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#ffffff"
+                tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
